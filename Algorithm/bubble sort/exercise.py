@@ -31,7 +31,7 @@ elements = [
     ]
 """
 
-def bubble_sort(elements, key='transaction_amount'):
+def bubble_sort(elements, key='name'):
     size = len(elements)
     swapped = False
 
@@ -59,4 +59,5 @@ if __name__ == '__main__':
 
     bubble_sort(elements)
     print(elements)
+
 
